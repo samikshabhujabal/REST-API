@@ -1,9 +1,11 @@
 
-📌 Contact Details
+📞 Contact Details
 
-Name: Samiksha Bhujbal ,Tanvi Shinde
+| Name              |    Email                      | 
+|-------------------|------------------------------ |
+| Samiksha Bhujabal | samikshabhujabal@gmail.com    | 
+| Tanvi Shinde      |  tanvishinde9756@gmail.com    | 
 
-Email: samikshabhujabal@gmail.com ,  tanvishinde9756@gmail.com
 
 
 
