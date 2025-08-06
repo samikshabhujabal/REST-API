@@ -47,52 +47,79 @@ Project Structure:
 student-management-api/
 │
 ├── src/
+
 │   └── main/
+
 │       ├── java/
+
 │       │   └── com/
+
 │       │       └── example/
+
 │       │           └── studentmanagement/
-│       │               ├── controller/         # Exposes REST endpoints
+
+│       │               ├── controller/   
+
 │       │               │   └── StudentController.java
+
 │       │               │   └── CourseController.java
+
 │       │               │   └── AuthController.java
 │       │
-│       │               ├── service/            # Business logic
+│       │               ├── service/   
+
 │       │               │   └── StudentService.java
+
 │       │               │   └── CourseService.java
 │       │
-│       │               ├── repository/         # Spring Data JPA interfaces
+│       │               ├── repository/     
+
 │       │               │   └── StudentRepository.java
+
 │       │               │   └── CourseRepository.java
 │       │
-│       │               ├── model/              # JPA entities
+│       │               ├── model/
+
 │       │               │   └── Student.java
+
 │       │               │   └── Course.java
 │       │
-│       │               ├── dto/                # Request/response objects
+│       │               ├── dto/   
+
 │       │               │   └── StudentDTO.java
+
 │       │               │   └── CourseDTO.java
+
 │       │               │   └── AuthRequest.java
+
 │       │               │   └── AuthResponse.java
 │       │
-│       │               ├── mapper/             # DTO ↔ Entity mappers (optional)
+│       │               ├── mapper/             
+
 │       │               │   └── StudentMapper.java
 │       │
-│       │               ├── config/             # Security, Swagger, etc.
+│       │               ├── config/           
+
 │       │               │   └── SecurityConfig.java
+
 │       │               │   └── SwaggerConfig.java
 │       │
-│       │               ├── exception/          # Custom exception handling
+│       │               ├── exception/        
+
 │       │               │   └── GlobalExceptionHandler.java
+
 │       │               │   └── ResourceNotFoundException.java
 │       │
 │       │               └── StudentManagementApplication.java
 │
 │       └── resources/
-│           ├── application.properties         # DB config, server port, etc.
-│           ├── data.sql / schema.sql          # Initial DB setup (optional)
-│
-├── pom.xml                                     # Maven build file
+
+│           ├── application.properties  
+
+│           ├── data.sql / schema.sql  
+
+├── pom.xml 
+
 └── README.md
 
 
