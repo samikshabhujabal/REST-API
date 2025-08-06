@@ -15,11 +15,13 @@ PostgreSQL – Relational database
 ✅ Core Frontend Tech
 HTML – Page structure
 
+
 CSS / Bootstrap / Tailwind – Styling
 
 JavaScript – Logic & interactivity
 
 Axios / Fetch – Call REST API
+
 
 Features:
 
@@ -42,6 +44,7 @@ Features:
 9.Reports Generation – Generate attendance, performance, and fee reports.
 
 10.Search & Filter – Easily find students, courses, or records.
+
 
 Project Structure:
 
@@ -205,6 +208,8 @@ student-management-api/
  Frontend:
 
 <img width="1749" height="972" alt="Screenshot 2025-08-05 194748" src="https://github.com/user-attachments/assets/1445fb93-8faf-45bd-b4cb-f7f34f0d6684" />
+
+
 
 Backend:
 <img width="970" height="874" alt="Screenshot 2025-08-04 161210" src="https://github.com/user-attachments/assets/f5e8f1c5-6b33-469b-b71d-943588d49bc5" />
