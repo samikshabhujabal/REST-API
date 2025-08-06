@@ -1,4 +1,12 @@
 
+📌 Contact Details
+
+Name: Samiksha Bhujbal ,Tanvi Shinde
+
+Email: samikshabhujabal@gmail.com ,  tanvishinde9756@gmail.com
+
+
+
 Technology
 
 🚀 Backend
@@ -212,6 +220,8 @@ student-management-api/
 
 
 Backend:
+
 <img width="970" height="874" alt="Screenshot 2025-08-04 161210" src="https://github.com/user-attachments/assets/f5e8f1c5-6b33-469b-b71d-943588d49bc5" />
+
 
 
