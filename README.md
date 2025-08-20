@@ -12,7 +12,7 @@
 Technology
 
 🚀 Backend
-Spring Boot – Fast REST API development
+Spring Boot – Angular
 
 Spring MVC – Request handling (controllers)
 
@@ -30,7 +30,7 @@ CSS / Bootstrap / Tailwind – Styling
 
 JavaScript – Logic & interactivity
 
-Axios / Fetch – Call REST API
+Axios / Fetch – Angular
 
 
 Features:
@@ -58,83 +58,88 @@ Features:
 
 Project Structure:
 
-student-management-api/
+student-management-frontend/
+
+│── node_modules/ 
+
+│── src/
+
+│   ├── app/
+
+│   │   ├── components/    
+
+│   │   │   ├── add-student/
+
+│   │   │   │   ├── add-student.component.ts
+
+│   │   │   │   ├── add-student.component.html
+
+│   │   │   │   ├── add-student.component.css
+
+│   │   │   │   └── add-student.component.spec.ts
+
+
+│   │   │   ├── student-list/
+
+│   │   │   │   ├── student-list.component.ts
+
+│   │   │   │   ├── student-list.component.html
+
+│   │   │   │   ├── student-list.component.css
+
+│   │   │   │   └── student-list.component.spec.ts
+
+│   │   │   ├── update-student/
+
+
+│   │   │   │   ├── update-student.component.ts
+
+│   │   │   │   ├── update-student.component.html
+
+│   │   │   │   ├── update-student.component.css
+
+│   │   │   │   └── update-student.component.spec.ts
+
+│   │   │
+│   │   ├── models/  
+
+
+│   │   │   └── student.model.ts
+
+│   │   │
+│   │   ├── services/    
+
+│   │   │   └── student.service.ts
+│   │   │
+│   │   ├── app-routing.module.ts
+
+│   │   ├── app.module.ts
+
+│   │   ├── app.component.ts
+
+│   │   ├── app.component.html
+
+│   │   └── app.component.css
+│   │
+│   ├── assets/   
+
+│   ├── environments/ 
+
+│   │   ├── environment.ts
+
+│   │   └── environment.prod.ts
+│   │
+│   ├── index.html  
+
+│   ├── main.ts  
+
+│   └── styles.css  
+
 │
-├── src/
+│── angular.json      
 
-│   └── main/
+│── package.json     
 
-│       ├── java/
-
-│       │   └── com/
-
-│       │       └── example/
-
-│       │           └── studentmanagement/
-
-│       │               ├── controller/   
-
-│       │               │   └── StudentController.java
-
-│       │               │   └── CourseController.java
-
-│       │               │   └── AuthController.java
-│       │
-│       │               ├── service/   
-
-│       │               │   └── StudentService.java
-
-│       │               │   └── CourseService.java
-│       │
-│       │               ├── repository/     
-
-│       │               │   └── StudentRepository.java
-
-│       │               │   └── CourseRepository.java
-│       │
-│       │               ├── model/
-
-│       │               │   └── Student.java
-
-│       │               │   └── Course.java
-│       │
-│       │               ├── dto/   
-
-│       │               │   └── StudentDTO.java
-
-│       │               │   └── CourseDTO.java
-
-│       │               │   └── AuthRequest.java
-
-│       │               │   └── AuthResponse.java
-│       │
-│       │               ├── mapper/             
-
-│       │               │   └── StudentMapper.java
-│       │
-│       │               ├── config/           
-
-│       │               │   └── SecurityConfig.java
-
-│       │               │   └── SwaggerConfig.java
-│       │
-│       │               ├── exception/        
-
-│       │               │   └── GlobalExceptionHandler.java
-
-│       │               │   └── ResourceNotFoundException.java
-│       │
-│       │               └── StudentManagementApplication.java
-│
-│       └── resources/
-
-│           ├── application.properties  
-
-│           ├── data.sql / schema.sql  
-
-├── pom.xml 
-
-└── README.md
 
 
 ✅ pom.xml Dependencies:
@@ -217,7 +222,7 @@ student-management-api/
 
  Frontend:
 
-<img width="1749" height="972" alt="Screenshot 2025-08-05 194748" src="https://github.com/user-attachments/assets/1445fb93-8faf-45bd-b4cb-f7f34f0d6684" />
+<img width="765" height="163" alt="Screenshot 2025-08-20 101731" src="https://github.com/user-attachments/assets/b3207a19-8e17-4f3f-af76-a19e1b398fc2" />
 
 
 
